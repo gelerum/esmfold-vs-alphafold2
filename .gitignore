@@ -9,8 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
+esmfold/out/*
+alphafold2/out/*
 !alphafold2/out/Calmodulin-1_pae.png
 !alphafold2/out/Alpha-synuclein_pae.png
 !alphafold2/out/Ubiquitin_pae.png
-esmfold/out/*
-alphafold2/out/*
