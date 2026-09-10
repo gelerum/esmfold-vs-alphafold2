@@ -1,0 +1,25 @@
+[project]
+name = "esmfold-vs-alphafold2"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Gleb Gonchar", email = "gelerum@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "biopython>=1.88",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "networkx>=3.6.1",
+    "numpy>=2.5.3",
+    "pandas>=3.0.5",
+    "requests>=2.34.2",
+    "seaborn>=0.13.2",
+    "torch>=2.14.0",
+    "transformers>=5.17.0",
+]
+
+[tool.uv]
+package = false
