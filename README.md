@@ -31,3 +31,9 @@ cd esmfold
 uv sync
 uv run esmfold.py
 ```
+
+# Генерация графиков
+```bash
+uv sync
+uv run plot_plddt.py
+```
